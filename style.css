@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+:root {
+  --primary-color: #6e6e7c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 1em;
+  margin-bottom: 0.5em;
+}
+
+.description {
+  padding: 0.5em;
+  font-size: large;
+}
+
+#input-div {
+  margin-top: 1em;
+  font-size: larger;
+}
+
+input {
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 1em;
+  border: 2px solid var(--primary-color);
+  outline: none;
+}
+
+#check-btn {
+  margin: 1em;
+  padding: 0.7rem;
+  background-color: var(--primary-color);
+  border: none;
+  color: #ffffff;
+  border-radius: 0.5em;
+  font-size: large;
+  cursor: pointer;
+  outline: none;
+}
+
+#loader {
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  max-width: 80vw;
+  margin-bottom: 10em;
+}
+
+.msg {
+  font-size: larger;
+  padding: 1em;
+}
+
+#message {
+  font-size: x-large;
+  padding: 1em;
+}
+
+#previous-palindrome-msg {
+  margin-bottom: 10em;
+}
+
+.list-item-inline {
+  display: inline-block;
+}
+
+.footer {
+  margin-top: 50px;
+  padding: 14px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.footer ul {
+  padding: 8px;
+}
+
+.footer ul li {
+  padding: 8px;
+}
